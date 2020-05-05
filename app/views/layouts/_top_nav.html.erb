@@ -44,6 +44,16 @@
             <%= fa_icon "shopping-cart" %> My Cart (<%= cart.size %>)
           <% end %>
         </li>
+        <%# Login / logout /Register %>
+        
+        <% if current_user %>
+          <li> Hello, <br/> <%= current_user.first_name %> ! </li> <li> <%= link_to "Logout", '/logout' %> </li>
+        <% else %>
+        <li>  <%= link_to 'Login', '/login' %> </li> <li> <%= link_to 'Register', '/register' %> </li>
+        <% end %>
+
+        <%#= yield %>
+        
       </ul>
     </div>
   </div>
