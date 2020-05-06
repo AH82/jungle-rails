@@ -69,6 +69,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 #### Adding a new Product
 ![alt text](docs/admin_adds_new_product.png "Admin: New Product")
 #### Categories Page for an admin
-![alt text](docs/admin_adds_a_category.png "Admin: New category")
-#### Adding a New category
 ![alt text](docs/admin_all_categories.png "Admin: All Categories")
+#### Adding a New category
+![alt text](docs/admin_adds_a_category.png "Admin: New category")
