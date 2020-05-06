@@ -4,7 +4,6 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 
 ## Setup
----
 
 1. Run `bundle install` to install dependencies
 2. Create `config/database.yml` by copying `config/database.example.yml`
@@ -16,14 +15,12 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 8. Run `bin/rails s -b 0.0.0.0` to start the server
 
 ## Stripe Testing
----
 
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
 
 More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Dependencies
----
 
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
@@ -31,7 +28,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * bcrypt 3.1.7
 
 ## features 
----
 * ### User Accounts
   * An unregistered user can register.
   * A user can register or login from any page, if not already.logged in.
@@ -49,7 +45,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
   * They add or remove products, and can add categories.
 
 ## Screenshots
----
 
 ### Regular Users
 #### Homepage & Product page for a regular user
